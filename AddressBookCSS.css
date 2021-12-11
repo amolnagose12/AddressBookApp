@@ -41,3 +41,31 @@ body {
 * {
     box-sizing: border-box;
 }
+.heading-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px;
+  }
+
+.add-button {
+    font: normal normal normal 22px/29px Roboto;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    background-color: blue;
+    border: none;
+    border-radius: 7px;
+    padding: 5px 18px;
+    outline: none;
+    text-decoration: wavy;
+  }
+  .addressbook-detail-text {
+    font: normal normal bold 24px/25px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+    text-align: left;
+  }
